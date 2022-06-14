@@ -13,7 +13,7 @@ def main():
     X=[[text_TV, text_Radio, text_Newspaper]]
 
     estimator_loaded = joblib.load("./randomforest_with_advertising.pkl")
-    prediction = round(estimator_loaded.predict(X)[0],5)
+    prediction = round(estimator_loaded.predict(X)[0],3)
 
     #alcohol = st.slider("Alcohol", 8, 15)
     if st.button('Einschätzung'):
