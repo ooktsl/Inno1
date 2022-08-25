@@ -10,3 +10,4 @@ class Customer(Base):
     Radio = Column(Float)
     Newspaper = Column(Float)
     Sales = Column(Float)
+
